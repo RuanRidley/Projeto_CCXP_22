@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family= Arimo :ital,wght@0,700;1,400 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+:root{
+    --cor-primary: rgba(255, 255, 255, 1);
+    --cor-secundary: rgba(243, 198, 31, 1);
+    --cor-terciary: rgba(81, 73, 136, 1);
+    --fonte-principal: 'Arimo', sans-serif;
+
+}
+body{
+    width: 100%;
+    height: auto;
+   
+}
+/*Estilizando o cabeçalho*/
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-secundary);
+}
+.cabecalho{
+    margin: 0.6rem 2rem;
+    height: 4rem;
+}
+/*Estilizando a secão */
+.conteiner{
+    display: flex;
+
+}
+.text_box{
+    font-size: var(--fonte-principal);
+    background-color: var(--cor-terciary);
+    width: 65%;
+}
+.text_box_titulo{
+    padding: 2.3rem;
+    align-items: center;
+}
+.titulo_secao1{
+    font-size: 4.3rem;
+    font-weight: 700;
+    color: var(--cor-secundary);
+}
+.sub_titulo_secao1{
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: var(--cor-primary);
+    text-align: center;
+    margin-top: 1rem;
+}
+.paragrafo_secao1{
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: var(--cor-primary);
+    text-align: center;
+}
+.image_box{
+
+}
+.days{
+    font-size: 2rem;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    color: rgba(227, 56, 129, 1);
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+.image_box img{
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+    width: 90%;
+    height: 90%;
+}
