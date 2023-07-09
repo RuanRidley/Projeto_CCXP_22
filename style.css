@@ -61,16 +61,23 @@ nav{
     color: var(--cor-primary);
     text-align: center;
 }
-.image_box{
-
-}
 .days{
-    font-size: 2rem;
-    font-family: var(--fonte-principal);
-    font-weight: 700;
-    color: rgba(227, 56, 129, 1);
     margin-left: 2rem;
     margin-bottom: 1rem;
+}
+.cronometro{
+    display: flex;
+    justify-content: space-around;
+    color: var(--cor-terciary);
+    font-weight: 700;
+    font-size: 50px;
+}
+.texto_cronometro{
+    font-size: 30px;
+    color:rgba(227, 56, 129, 1);
+    font-family:var(--fonte-principal);
+    font-weight: 700;
+    margin-left: 20px;
 }
 .image_box img{
     display: flex;
@@ -79,4 +86,46 @@ nav{
     padding-bottom: 2rem;
     width: 90%;
     height: 90%;
+}
+/*Estilizando o footer*/
+footer{
+    display: flex;
+}
+.text_nav_day{
+    font-size: 1.7rem;
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    color: var(--cor-secundary);
+    margin: 0.6rem 0rem;
+}
+.panfleto{
+    width: 100%;
+   align-items: center;
+}
+.imagem_panfletos{
+    width: 180px;
+    height: 180px;
+}
+.formulário{
+    padding: 90px 10px 30px 25px;
+}
+.btn{
+    background-color: var(--cor-terciary);
+    width: 450px;
+    height: 100px;
+    color: #eaece5;
+    border: 0px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.btn:hover{
+    background-color: var(--cor-secundary);
+    color: rgb(36, 33, 33);
+    transform: translate(-3px);
+    box-shadow: 0px 15px 20px #252020;
+    transition-duration: 0.4s;
 }
