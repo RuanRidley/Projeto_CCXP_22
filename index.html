@@ -2,36 +2,76 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Portfólio</title>
     <link rel="stylesheet" href="style.css">
-    <title>CCXP_22</title>
-</head>
 <body>
-    <nav>
-        <div class="cabecalho">
-           <img src="imagens/CCXP_logo.svg" alt="logo da CCXP 22">
+    <div class="container">
+        <div id="header">Portfólio</div>
+        <div id="Menu">
+            <ul>
+                <li><a href="">Meus Serviços</a></li>
+                <li><a href="">Contato</a></li>
+                <li><a href="">Portfólio</a></li>
+            </ul>
         </div>
-    </nav>
-    <section class="conteiner">
-        <div class="text_box">
-            <div class="text_box_titulo">
-                <h1 class="titulo_secao1">REVIVA O ÉPICO</h1>
-                <p class="sub_titulo_secao1">DE 01 A 04 DE DEZEMBRO</p>
-            </div>
-            <div class="paragrafo_secao1">
-                <p>Você consegue sentir? É aquela sensação de <br> finalmente poder falar em voz alta: "estamos <br> em casa". Sim, em dezembro de 2022 <br>, teremos a volta da CCXP física. Mas não será <br> qualquer CCXP, vai ser a maior de todos os <br> tempos. Prepare-se para visitar seus <br> universos favoritos, explorar o Artists' Valley,<br> se emocionar nos auditórios e encontrar <br> aventuras épicas a cada passo pelos nossos <br> corredores.</p>
-            </div>
+    </div>
+    <div class="container">
+        <div id="HeaderCta">
+            <h1 id='HeaderCta_Titulo'>Olá, meu nome<br>é Maria</h1>
+            <p id='HeaderCta_paragrafo'>Sou programadora e gostaria de apresentar meu<br>trabalho para você através deste portfólio.</p>
+            <button id="Button_Cta">Meus Serviços</button>
         </div>
-        <div class="image_box">
-            <div class="days">
-                <br> <br>
-                <p>Para a maior CCXp de todos os tempos</p>
-            </div>
-            <div class="img">
-                <img src="imagens/arlequina.svg" alt="imagem da arlequina">
-            </div>
-
+        <div id="headerIMG">
+            <img src="img/headerIMG.svg" alt="">
         </div>
-    </section>
+    </div>
+    <div class="container" id="client">
+        <div class="header_Client_Text">Alguns dos <br>meus clientes</div>
+        <div class="header_logo"> <img src="img/apple.svg" alt="logo da apple"></div>
+        <div class="header_logo"><img src="img/Slack.svg" alt="logo da Slack"></div>
+        <div class="header_logo"><img src="img/spotify.svg" alt="logo do spotify"></div>
+    </div>
+    <div class="container Text_Center">
+        <div id="services">
+            <h2 class="red">Conheça</h2>
+            <h1 class="Black">Meus serviços</h1>
+        </div>
+    </div>
+    <div class="container" id="service">
+        <div class="Text_Center"> 
+            <img src="icons/icon1.svg" alt="">
+            <h3>Consultoria</h3>
+            <p>Te ajudo a organizar sua empresa <br>e melhorar seus resultados.</p>
+        </div>
+        <div class="Text_Center">
+            <img src="icons/icon2.svg" alt="">
+            <h3 class="">Email Marketing</h3>
+            <p class="">Gerenciar campanhas é difícil.<br>Conte comigo para te ajudar..</p>
+        </div>
+        <div class="Text_Center">
+            <img src="icons/icon3.svg" alt="">
+            <h3>Criação de Sites</h3>
+            <p>Desenvolvo seu site inteiro <br>o zero e te entrego prontinho.</p>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <div id="contact_Img">
+            <img src="img/contact.svg" alt="">
+        </div>
+        <div id="contact_Forms">
+            <h2 class="red">Economize seu tempo</h2>
+            <h1 class="Black">Ganhe mais dinheiro</h1>
+            <p id="Paragrafo_contact_forms">Digite aqui seu endereço de e-mail. Eu entrarei em <br> contato para fornecer um diagnóstico gratuito.</p>
+            <form action="">
+                <input type="e-mail" name="e-mail" id="email" placeholder="e-mail">
+                <button id="Button_Forms" type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
